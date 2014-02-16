@@ -71,6 +71,7 @@ int main(int argc, char ** argv) {
           if(!j_dirty) {
             std::cout << "J down" << std::endl;
             j_dirty = true;
+            character.meleeAttack();
           }
         }
 

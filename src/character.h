@@ -27,9 +27,13 @@ class Character {
   private:
     std::vector<sf::Texture> idleImages_;
     std::vector<std::vector<sf::Texture> > runningImages_;
+    std::vector<std::vector<sf::Texture> > meleeImages_;
     std::string name_;
 
     int runningFrame_;
+    int meleeFrame_;
+
+    bool meleeAttack_;
 
     int position_;
     int health_;

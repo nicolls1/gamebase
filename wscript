@@ -262,7 +262,7 @@ def build(ctx):
     )
 
     uselibs = []
-    defines = ['SFGUI_STATIC', 'SFML_STATIC', 'UNICODE', '_UNICODE', 'GLEW_STATIC']
+    defines = ['SFGUI_STATIC', 'SFML_STATIC', 'UNICODE', '_UNICODE', 'GLEW_STATIC', 'JSON_IS_AMALGAMATION']
     libs = []
     frameworks = []
     frameworks_path = []
