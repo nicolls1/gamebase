@@ -14,7 +14,7 @@ resize(sf::Sprite s, int width, int height) {
 // Program entry point
 int main(int argc, char ** argv) {
   // Create the SFML window
-  sf::RenderWindow window(sf::VideoMode(1280, 720), "Game!");
+  sf::RenderWindow window(sf::VideoMode(1280, 720), "Rouge Hero");
   window.setFramerateLimit(30); // call it once, after creating the window
 /*
   sf::Texture bg;
